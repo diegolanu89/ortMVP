@@ -1,0 +1,57 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"material-icon-theme.folders.associations": {
+		"aditional": "client",
+		"supervisor": "client",
+		"deviceController": "lib",
+		"soap": "mock",
+		"simulator": "controller"
+	},
+	"material-icon-theme.files.customClones": [
+		{
+			"name": "context",
+			"base": "react",
+			"color": "green",
+			"fileNames": ["react.rs"]
+		},
+		{
+			"name": "controller",
+			"base": "react",
+			"color": "yellow",
+			"fileNames": ["react.rs"]
+		},
+		{
+			"name": "devicecontroller",
+			"base": "react",
+			"color": "#75b300",
+			"fileNames": ["react.rs"]
+		},
+		{
+			"name": "view",
+			"base": "react",
+			"color": "orange",
+			"fileNames": ["react.rs"]
+		},
+		{
+			"name": "model",
+			"base": "typescript",
+			"color": "red",
+			"fileNames": ["typescript.rs"]
+		},
+		{
+			"name": "hooks",
+			"base": "react",
+			"color": "purple",
+			"fileNames": ["react.rs"]
+		}
+	],
+	"material-icon-theme.files.associations": {
+		"*.Context.jsx": "context",
+		"*.Controller.js": "devicecontroller",
+		"*.c.jsx": "controller",
+		"*.Screen.jsx": "view",
+		"*.m.js": "model",
+		"*.h.jsx": "hooks"
+	}
+}

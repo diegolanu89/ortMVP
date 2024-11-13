@@ -1,0 +1,15 @@
+@keyframes pulsar {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2); /* Agrandar la imagen */
+	}
+	100% {
+		transform: scale(1); /* Volver a su tamaño original */
+	}
+}
+
+.pulsar {
+	animation: pulsar 1s infinite; /* 1 segundo de duración, animación infinita */
+}

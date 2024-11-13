@@ -1,0 +1,52 @@
+/* styles.css */
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+}
+
+#home {
+	display: flex;
+}
+
+#botoneraCard {
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+#contenedorPokemones {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.PokemonCard {
+	width: 200px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+}
+
+#favorito {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*===============================MEDIA QUERYS============================================*/
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
