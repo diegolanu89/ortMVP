@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/FRONTEND-REACT.JS-orange">
   <img src="https://img.shields.io/badge/VITE%20-green">
    <img src="https://img.shields.io/badge/AXIOS%20-green">
+   <img src="https://img.shields.io/badge/DEPLOY-REST-red">
 </p>
 
 Este proyecto es un frontend construido en **React** con **Vite** y **Material UI**. Su propósito principal es mostrar una lista de cursos que se obtienen desde un backend, permitiendo a los usuarios aplicar filtros, paginar y ver detalles de cada curso.
